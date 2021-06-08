@@ -7,7 +7,7 @@ int gcd(int a,int b){
 }
 
 int lcd(int a,int b){
-    return (a*b)/gcd(a,b) ; 
+    return (int)(a*b)/gcd(a,b) ; 
 }
 
 int main(){
