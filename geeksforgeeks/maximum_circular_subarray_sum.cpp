@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int sum1(int arr[],int n){
+int sum(int arr[],int n){
     int ans = 0 ;
     int curr = 0 ;
 
@@ -46,10 +46,7 @@ int main(){
     int arr[n] ;
     for(int i=0;i<n;i++) cin>>arr[i] ;
 
-    int ans1 = sum1(arr,n) ;
-    int ans2 = sum2(arr,n) ;
-
-    int ans = max(ans1,ans2) ;
+    int ans = function(arr,n) ;
 
     cout<<ans<<endl ;
 
